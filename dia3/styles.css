@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#caja1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 30px 20px 30px 10px;
+margin:10px ;
+    border: blue 1px solid;
+    padding-left: 15px;
+
+}
+#caja2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 30px 20px 30px 10px;
+    border: blue 1px solid;
+    padding-right: 15px;
+    margin: 10px;
+}
+#padre{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    border: red 1px solid;
+    width: 350px;
+
+    
+}
